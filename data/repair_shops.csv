@@ -1,0 +1,101 @@
+shop_id,name,address,phone,license_number,is_fraud_involved
+SHOP_0,"Meyers, Ruiz and Robinson Auto Body","308 William Lodge Apt. 293
+Thorntonburgh, MS 99081",(338)520-7154x8185,SL29965846,True
+SHOP_1,Jones Group Auto Body,"7767 Jones Dale
+Port Arthur, IN 08244",(487)557-4058,SL91211086,True
+SHOP_2,Clark Inc Auto Body,"719 Joseph Ranch Suite 265
+Karenmouth, CA 25318",(449)767-4514x5375,SL59512466,True
+SHOP_3,"Turner, Roman and Gregory Auto Body","USNS Bird
+FPO AA 18785",001-969-590-1851x1156,SL31168504,True
+SHOP_4,"Hancock, Jones and Stevens Auto Body","0506 Tara Plains Apt. 831
+West Ryan, UT 08435",(875)586-0345,SL92362011,True
+SHOP_5,Allen's Auto Repair,"49524 Hayes Junction
+West Michellemouth, VA 62171",326.838.8032x42716,SL21569430,False
+SHOP_6,Espinoza's Auto Repair,"747 Cummings Falls Apt. 703
+Deniseview, NJ 73936",001-372-468-1931x92294,SL94180283,False
+SHOP_7,Walker's Auto Repair,"2539 Dillon Court
+Joshuastad, KY 08945",+1-292-258-8314,SL31171048,False
+SHOP_8,Reed's Auto Repair,"82673 Contreras Ways
+West Tonyashire, GU 99461",+1-465-371-6896,SL26132051,False
+SHOP_9,Hernandez's Auto Repair,"86286 Cruz Road Apt. 476
+Lake Erinside, HI 28144",6928587289,SL62656959,False
+SHOP_10,Fitzpatrick's Auto Repair,"16330 Hughes Cove Suite 262
+East Shirleyfurt, ME 80279",5846749116,SL87509675,False
+SHOP_11,Zimmerman's Auto Repair,"10166 Kayla Meadows
+Port Tasha, NC 36430",(454)714-0857x962,SL10194178,False
+SHOP_12,Gallagher's Auto Repair,"486 Benjamin Street
+Burgesston, HI 51549",7465901749,SL68600339,False
+SHOP_13,Calderon's Auto Repair,"44106 Sims Plains Suite 573
+North Russell, AR 23792",+1-242-938-9354x40711,SL23023226,False
+SHOP_14,Jensen's Auto Repair,"05066 Davis Plains
+Jesusbury, TN 26610",001-417-614-7955x41298,SL77710695,False
+SHOP_15,Thompson's Auto Repair,"815 Brandon Radial
+Dillonmouth, VI 51943",+1-201-726-9625,SL7656567,False
+SHOP_16,Woods's Auto Repair,"9139 Allen Gateway
+West Brandon, WV 22571",949.862.3838x4403,SL47617777,False
+SHOP_17,Scott's Auto Repair,"85803 Tricia Pike Suite 414
+Riosberg, OR 85547",3857050487,SL78457155,False
+SHOP_18,Johnson's Auto Repair,"77210 Timothy Heights
+Thomasbury, OK 14554",001-617-817-4003x456,SL44231976,False
+SHOP_19,Craig's Auto Repair,"4496 Bennett Avenue
+Taylorfurt, MS 96132",2475412081,SL58566767,False
+SHOP_20,Black's Auto Repair,"2894 Kevin Prairie
+Port Michael, MO 02888",(869)657-7526,SL75016912,False
+SHOP_21,Mcconnell's Auto Repair,"3678 Steve Drive
+Maryside, CA 33071",737-564-2983x93039,SL80452198,False
+SHOP_22,Richardson's Auto Repair,"88532 Hobbs Highway Apt. 114
+Houstonport, NH 43629",973-377-0499x096,SL80954046,False
+SHOP_23,Collins's Auto Repair,"9773 Davis Bypass Apt. 405
+Harrisfurt, ND 96091",001-810-680-4175,SL28800037,False
+SHOP_24,Johnson's Auto Repair,"88771 Benton Ports
+South Lukemouth, HI 30857",(434)811-0485x78671,SL43982048,False
+SHOP_25,Lamb's Auto Repair,"291 Melissa Trace
+Rhondaburgh, KS 76188",+1-991-596-0841x58553,SL8282800,False
+SHOP_26,Mccarthy's Auto Repair,"3185 Cunningham Park Apt. 716
+Jonathanville, KY 98770",200-804-0756x0231,SL41922716,False
+SHOP_27,Novak's Auto Repair,"96822 Curry Inlet Apt. 734
+Wandafort, OK 97605",+1-725-919-7366x547,SL75201148,False
+SHOP_28,Park's Auto Repair,"USNS Blevins
+FPO AA 09273",9539925906,SL16156081,False
+SHOP_29,Grant's Auto Repair,"17430 Brown Estate Suite 600
+Davidville, MT 89902",(377)952-7071x2797,SL57710197,False
+SHOP_30,Lewis's Auto Repair,"USS Jenkins
+FPO AA 23890",001-872-999-0438x817,SL53370240,False
+SHOP_31,Taylor's Auto Repair,"25431 Bowman Fort Apt. 584
+Nelsonfort, DC 44470",(704)767-8203x69061,SL4404289,False
+SHOP_32,Alvarado's Auto Repair,"40973 Michelle Drives
+Port Lisachester, MS 58048",(565)740-5324x21694,SL30019617,False
+SHOP_33,Haynes's Auto Repair,"USCGC Mcintyre
+FPO AA 72610",+1-805-981-3805x73213,SL74883048,False
+SHOP_34,Todd's Auto Repair,"PSC 8645, Box 5526
+APO AE 41828",407-705-5705,SL4847662,False
+SHOP_35,Hart's Auto Repair,"1235 Rios Island Suite 926
+West Ryan, AZ 50685",+1-525-951-5179x7519,SL69924996,False
+SHOP_36,King's Auto Repair,"73445 Elizabeth Road
+Hendersonburgh, DE 26369",461-464-6152x653,SL17113620,False
+SHOP_37,Bradford's Auto Repair,"81014 Gary Stravenue Suite 198
+Bradleyside, PA 86785",537-248-1268x179,SL97687447,False
+SHOP_38,Smith's Auto Repair,"899 Mark Shoal Apt. 814
+East Jaytown, MA 04869",+1-210-456-3586,SL14181622,False
+SHOP_39,Strickland's Auto Repair,"Unit 1669 Box 4602
+DPO AP 10342",(446)776-4281,SL75964820,False
+SHOP_40,Mills's Auto Repair,"74988 Richards Spurs
+Carolburgh, MS 01090",001-820-733-1465,SL66496329,False
+SHOP_41,Baldwin's Auto Repair,"5781 Andrew Ports Suite 043
+Robertsville, MO 35978",(908)462-9532x230,SL36401976,False
+SHOP_42,Barry's Auto Repair,"Unit 8764 Box 1261
+DPO AE 88253",001-255-774-5861,SL67645639,False
+SHOP_43,Gonzalez's Auto Repair,"354 Pittman Spring
+Robertsonstad, OK 72030",819.420.6965x69325,SL61536679,False
+SHOP_44,Graham's Auto Repair,"8312 Peterson Glens
+New Jamiestad, MA 83702",480.622.8017x7106,SL48701528,False
+SHOP_45,Dillon's Auto Repair,"944 Walker Lakes Apt. 414
+New Charles, WA 28938",(831)886-6790,SL85863254,False
+SHOP_46,Tucker's Auto Repair,"2011 Kenneth Plaza Apt. 843
+Mathisburgh, MO 02839",687-477-9533,SL17884579,False
+SHOP_47,Nguyen's Auto Repair,"42577 Carrillo Motorway
+Kingmouth, TX 44944",6216885211,SL57978831,False
+SHOP_48,Carney's Auto Repair,"83968 Weaver Parkways Suite 204
+Riverashire, WI 73959",558.494.7706,SL70628659,False
+SHOP_49,Peterson's Auto Repair,"54616 Vargas Highway
+Reesemouth, SD 59779",718.498.6361x39594,SL94524596,False

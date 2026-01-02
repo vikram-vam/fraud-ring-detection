@@ -1,0 +1,75 @@
+claim_id,witness_id,relationship
+CLM_7,WIT_5,Bystander
+CLM_9,WIT_6,Bystander
+CLM_15,WIT_7,Passenger
+CLM_18,WIT_8,Other Driver
+CLM_20,WIT_9,Bystander
+CLM_23,WIT_10,Bystander
+CLM_24,WIT_11,Other Driver
+CLM_27,WIT_12,Passenger
+CLM_30,WIT_13,Passenger
+CLM_32,WIT_14,Bystander
+CLM_33,WIT_15,Passenger
+CLM_34,WIT_16,Unknown
+CLM_35,WIT_17,Bystander
+CLM_36,WIT_18,Other Driver
+CLM_41,WIT_19,Passenger
+CLM_43,WIT_20,Unknown
+CLM_45,WIT_21,Passenger
+CLM_63,WIT_22,Passenger
+CLM_64,WIT_23,Other Driver
+CLM_66,WIT_24,Other Driver
+CLM_71,WIT_25,Passenger
+CLM_77,WIT_26,Bystander
+CLM_78,WIT_27,Other Driver
+CLM_79,WIT_28,Passenger
+CLM_81,WIT_29,Bystander
+CLM_82,WIT_30,Passenger
+CLM_92,WIT_31,Bystander
+CLM_98,WIT_32,Bystander
+CLM_99,WIT_33,Other Driver
+CLM_105,WIT_34,Passenger
+CLM_106,WIT_35,Unknown
+CLM_108,WIT_36,Other Driver
+CLM_110,WIT_37,Bystander
+CLM_112,WIT_2,Passenger
+CLM_113,WIT_1,Passenger
+CLM_114,WIT_4,Passenger
+CLM_115,WIT_38,Unknown
+CLM_116,WIT_3,Passenger
+CLM_117,WIT_0,Bystander
+CLM_119,WIT_3,Other Driver
+CLM_121,WIT_3,Other Driver
+CLM_122,WIT_4,Passenger
+CLM_123,WIT_0,Other Driver
+CLM_125,WIT_0,Passenger
+CLM_128,WIT_4,Unknown
+CLM_131,WIT_4,Bystander
+CLM_132,WIT_3,Passenger
+CLM_133,WIT_39,Bystander
+CLM_134,WIT_40,Passenger
+CLM_137,WIT_2,Unknown
+CLM_138,WIT_41,Unknown
+CLM_139,WIT_42,Passenger
+CLM_140,WIT_0,Bystander
+CLM_141,WIT_2,Other Driver
+CLM_144,WIT_4,Passenger
+CLM_145,WIT_4,Passenger
+CLM_146,WIT_43,Unknown
+CLM_147,WIT_1,Other Driver
+CLM_149,WIT_44,Passenger
+CLM_151,WIT_3,Unknown
+CLM_152,WIT_4,Other Driver
+CLM_158,WIT_4,Bystander
+CLM_159,WIT_45,Bystander
+CLM_161,WIT_46,Bystander
+CLM_162,WIT_2,Bystander
+CLM_163,WIT_4,Other Driver
+CLM_167,WIT_47,Unknown
+CLM_168,WIT_4,Bystander
+CLM_169,WIT_48,Other Driver
+CLM_171,WIT_49,Bystander
+CLM_172,WIT_1,Passenger
+CLM_174,WIT_2,Bystander
+CLM_177,WIT_50,Passenger
+CLM_178,WIT_51,Unknown

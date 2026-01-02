@@ -1,0 +1,12 @@
+{
+  "total_claimants": 885,
+  "fraud_ring_claimants": 85,
+  "total_claims": 179,
+  "fraud_ring_claims": 69,
+  "total_policies": 993,
+  "total_vehicles": 993,
+  "num_fraud_rings": 8,
+  "repair_shops": 50,
+  "medical_providers": 40,
+  "lawyers": 30
+}
