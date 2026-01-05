@@ -1,3 +1,0 @@
-# System dependencises for Neo4j Python driver
-libssl-dev
-libffi-dev

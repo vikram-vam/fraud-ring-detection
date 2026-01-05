@@ -66,13 +66,20 @@ st.markdown("""
 
 @st.cache_resource
 def init_neo4j_connection():
-    """Initialize Neo4j connection"""
-    uri = os.getenv('NEO4J_URI')
-    username = os.getenv('NEO4J_USERNAME')
-    password = os.getenv('NEO4J_PASSWORD')
+    """Initialize Neo4j connection - works both locally (.env) and on Streamlit Cloud (secrets)"""
+    # Try Streamlit secrets first (for Cloud deployment)
+    try:
+        uri = st.secrets["NEO4J_URI"]
+        username = st.secrets["NEO4J_USERNAME"]
+        password = st.secrets["NEO4J_PASSWORD"]
+    except (KeyError, FileNotFoundError):
+        # Fall back to .env file (for local development)
+        uri = os.getenv('NEO4J_URI')
+        username = os.getenv('NEO4J_USERNAME')
+        password = os.getenv('NEO4J_PASSWORD')
     
     if not all([uri, username, password]):
-        st.error("⚠️ Neo4j credentials not found in .env file")
+        st.error("⚠️ Neo4j credentials not found. Set in .env (local) or Streamlit secrets (cloud).")
         st.stop()
     
     # Configure SSL context to handle self-signed certificates (AuraDB fix)
@@ -134,10 +141,7 @@ def display_statistics(driver):
         st.metric("Providers", f"{stats['provider_network']:,}", help="Network size of Medical Providers and Repair Shops")
         st.metric("Avg Cost", f"${stats['avg_cost']:,.0f}", help="Average payout amount per claim across all types")
 
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 🛡️ System Status")
-    st.sidebar.success("● System Online")
-    st.sidebar.info("● Model v2.1 Loaded")
+
 
 def main():
     """Main application function"""

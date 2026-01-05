@@ -134,10 +134,7 @@ def display_statistics(driver):
         st.metric("Providers", f"{stats['provider_network']:,}", help="Network size of Medical Providers and Repair Shops")
         st.metric("Avg Cost", f"${stats['avg_cost']:,.0f}", help="Average payout amount per claim across all types")
 
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 🛡️ System Status")
-    st.sidebar.success("● System Online")
-    st.sidebar.info("● Model v2.1 Loaded")
+
 
 def main():
     """Main application function"""
