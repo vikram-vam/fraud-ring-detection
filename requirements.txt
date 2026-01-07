@@ -1,9 +1,86 @@
-streamlit
-neo4j
-python-dotenv
-pandas
-numpy
-faker
-networkx
-plotly
-pyvis
+# ============================================
+# Auto Insurance Fraud Detection System
+# Python Dependencies
+# Last Updated: January 2026
+# Python Version: 3.9+
+# ============================================
+
+# ==================== Core Framework ====================
+streamlit==1.30.0
+streamlit-aggrid==0.3.4.post3
+
+# ==================== Database ====================
+neo4j==5.16.0
+
+# ==================== Data Processing ====================
+pandas==2.1.4
+numpy==1.26.3
+
+# ==================== Graph Analysis ====================
+networkx==3.2.1
+
+# ==================== Visualization ====================
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# ==================== Data Generation ====================
+faker==22.0.0
+
+# ==================== Configuration ====================
+python-dotenv==1.0.0
+
+# ==================== Date/Time Handling ====================
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# ==================== Utilities ====================
+pyyaml==6.0.1
+
+# ==================== Logging & Monitoring ====================
+colorlog==6.8.0
+
+# ==================== Data Validation ====================
+pydantic==2.5.3
+
+# ==================== Testing (Optional) ====================
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# ==================== Code Quality (Optional) ====================
+black==23.12.1
+flake8==7.0.0
+pylint==3.0.3
+mypy==1.8.0
+
+# ==================== Export Functionality ====================
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# ==================== API (Optional - if building REST API) ====================
+fastapi==0.108.0
+uvicorn==0.25.0
+pydantic-settings==2.1.0
+
+# ==================== Security ====================
+cryptography==41.0.7
+
+# ==================== Type Hints ====================
+typing-extensions==4.9.0
+
+# ==================== Progress Bars ====================
+tqdm==4.66.1
+
+# ==================== JSON Handling ====================
+orjson==3.9.12
+
+# ==================== HTTP Requests (if needed) ====================
+requests==2.31.0
+urllib3==2.1.0
+
+# ==================== Scheduling (Optional) ====================
+schedule==1.2.1
+
+# ==================== Memory Profiling (Optional) ====================
+memory-profiler==0.61.0

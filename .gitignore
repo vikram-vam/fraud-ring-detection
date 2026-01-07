@@ -1,8 +1,10 @@
-# Environment variables (contains secrets)
+# Environment files
 .env
+.env.local
+.env.production
 
-# Neo4j AuraDB credentials file
-Neo4j-*.txt
+# Streamlit secrets
+.streamlit/secrets.toml
 
 # Python
 __pycache__/
@@ -28,23 +30,36 @@ wheels/
 
 # Virtual environments
 venv/
-ENV/
 env/
-.venv/
+ENV/
+.venv
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Streamlit
-.streamlit/secrets.toml
+# Logs
+*.log
+logs/
 
-# Temp files
-*.tmp
-*.temp
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data
+*.csv
+*.db
+*.sqlite
+data/raw/
+data/processed/
