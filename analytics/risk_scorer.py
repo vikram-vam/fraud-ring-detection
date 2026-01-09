@@ -105,16 +105,21 @@ class RiskScorer:
             
             for factor, score in risk_factors.items():
                 weight = self.weights.get(factor, 0)
-                weighted_score = score * weight
+
+                normalized_score = self._normalize_score(score)
+                weighted_score = normalized_score * weight
+
                 weighted_factors[factor] = {
                     'raw_score': round(score, 2),
+                    'normalized_score': round(normalized_score, 3),
                     'weight': weight,
-                    'weighted_score': round(weighted_score, 2)
+                    'weighted_score': round(weighted_score, 3)
                 }
+
                 total_risk += weighted_score
-            
-            # Normalize to 0-100 scale
-            total_risk = min(total_risk * 100, 100)
+
+            # Convert to 0–100 scale
+            total_risk = round(min(total_risk * 100, 100), 2)
             
             # Generate risk explanation
             explanation = self._generate_risk_explanation(weighted_factors, total_risk)
@@ -808,3 +813,25 @@ class RiskScorer:
             for factor, data in sorted_factors[:top_n]
             if data['weighted_score'] > 0
         ]
+
+    def _normalize_score(self, score: float) -> float:
+        """
+        Normalize risk factor scores to 0–1 range.
+
+        Assumptions:
+        - Scores <= 1 are already normalized
+        - Scores > 1 are assumed to be 0–100 scale
+        """
+        if score is None:
+            return 0.0
+
+        try:
+            score = float(score)
+        except (TypeError, ValueError):
+            return 0.0
+
+        if score <= 1.0:
+            return max(score, 0.0)
+
+        return min(score / 100.0, 1.0)
+
